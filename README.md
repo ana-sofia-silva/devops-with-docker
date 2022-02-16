@@ -4,6 +4,8 @@ Introductory course to Docker and docker-compose.
 
 ### Exercise 1.1
 
+Started to 3 containers from image that does not automatically exit (nginx) and stoped 2 of the containers leaving 1 up.
+
 ```
 
 CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                          PORTS     NAMES
