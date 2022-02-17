@@ -1,5 +1,8 @@
 # devops-with-docker
-Introductory course to Docker and docker-compose. 
+
+Repository to returning exercises for the University of Helsinki course DevOps with Docker.
+
+Introductory course to Docker and docker-compose.  
 
 
 ### Exercise 1.1
