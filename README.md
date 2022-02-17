@@ -15,13 +15,23 @@ ce6737b85637   nginx     "/docker-entrypoint.…"   3 minutes ago   Exited (0) 2
 
 ### Exercise 1.2
 
-docker ps -a
-
 ```
+docker ps -a
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
-$ docker images
 ```
+$ docker images
 REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+```
+
+### Exercise 1.3
+```
+$ docker image devopsdockeruh
+$ docker image ls -a
+
+>devopsdockeruh/pull_exercise   latest    d9854bc0e13a   2 years ago   75.3MB
+
+$ docker run -it devopsdockeruh/pull_exercise 
+> "This is the secret message"
 ```
