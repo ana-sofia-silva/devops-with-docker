@@ -16,13 +16,13 @@ ce6737b85637   nginx     "/docker-entrypoint.…"   3 minutes ago   Exited (0) 2
 ### Exercise 1.2
 
 ```
-docker ps -a
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+$ docker ps -a
+> CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
 ```
 $ docker images
-REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+> REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 
 ### Exercise 1.3
