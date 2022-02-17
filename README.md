@@ -2,9 +2,6 @@
 
 Repository to returning exercises for the University of Helsinki course DevOps with Docker.
 
-Introductory course to Docker and docker-compose.  
-
-
 ### Exercise 1.1
 
 Started 3 containers from image that does not automatically exit (nginx) and stoped 2 of the containers leaving 1 up.
