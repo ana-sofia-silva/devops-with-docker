@@ -25,13 +25,16 @@ $ docker images
 > REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 
-### Exercise 1.3
+### Exercise 1.3: Secret message
 ```
 $ docker image devopsdockeruh
-$ docker image ls -a
 
->devopsdockeruh/pull_exercise   latest    d9854bc0e13a   2 years ago   75.3MB
+$ docker run -d devopsdockeruh/simple-web-service
 
 $ docker run -it devopsdockeruh/pull_exercise 
-> "This is the secret message"
+
 ```
+
+### 1.4: Missing dependencies
+
+
